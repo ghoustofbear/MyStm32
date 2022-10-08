@@ -1,0 +1,17 @@
+freertosdemo\modbus.o: ..\Core\Src\Modbus.c
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+freertosdemo\modbus.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+freertosdemo\modbus.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+freertosdemo\modbus.o: ../Core/Inc/FreeRTOSConfig.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+freertosdemo\modbus.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
