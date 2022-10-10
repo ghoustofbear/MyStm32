@@ -50,4 +50,3 @@ freertosdemo\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/time
 freertosdemo\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 freertosdemo\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 freertosdemo\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
-freertosdemo\freertos.o: ../Core/Inc/usart.h

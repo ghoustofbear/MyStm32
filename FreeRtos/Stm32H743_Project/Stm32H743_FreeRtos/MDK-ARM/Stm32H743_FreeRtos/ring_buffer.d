@@ -1,0 +1,11 @@
+stm32h743_freertos\ring_buffer.o: ..\Core\Src\ring_buffer.c
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h
+stm32h743_freertos\ring_buffer.o: ../Core/Inc/ring_buffer.h

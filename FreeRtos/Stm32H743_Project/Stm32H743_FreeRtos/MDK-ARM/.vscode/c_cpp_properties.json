@@ -1,23 +1,23 @@
 {
     "configurations": [
         {
-            "name": "FreeRtosDemo",
+            "name": "Stm32H743_FreeRtos",
             "includePath": [
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Core\\Inc",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Drivers\\STM32H7xx_HAL_Driver\\Inc",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\Legacy",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Drivers\\CMSIS\\Device\\ST\\STM32H7xx\\Include",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Drivers\\CMSIS\\Include",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Core\\Inc",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Drivers\\STM32H7xx_HAL_Driver\\Inc",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Drivers\\STM32H7xx_HAL_Driver\\Inc\\Legacy",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Drivers\\CMSIS\\Device\\ST\\STM32H7xx\\Include",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Drivers\\CMSIS\\Include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\MDK-ARM",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Core\\Src",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Drivers\\STM32H7xx_HAL_Driver\\Src",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Middlewares\\Third_Party\\FreeRTOS\\Source",
-                "e:\\MyProjects\\stm32H743\\FreertosDemo\\FreeRtosDemo\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\MDK-ARM",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Core\\Src",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Drivers\\STM32H7xx_HAL_Driver\\Src",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Middlewares\\Third_Party\\FreeRTOS\\Source",
+                "e:\\MyProjects\\MyStm32\\FreeRtos\\Stm32H743_Project\\Stm32H743_FreeRtos\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

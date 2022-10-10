@@ -23,7 +23,6 @@
 #include "main.h"
 #include "cmsis_os.h"
 
-#include"usart.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -60,7 +59,7 @@ osThreadId myTask09Handle;
 osThreadId myTask10Handle;
 osThreadId myTask11Handle;
 osThreadId myTask12Handle;
-
+extern void usartSend();
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
 
@@ -209,9 +208,8 @@ void StartTask02(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+		usartSend();
     osDelay(1);
-    LED(0);
-    LED(1);
   }
   /* USER CODE END StartTask02 */
 }
@@ -227,9 +225,10 @@ void StartTask03(void const * argument)
 {
   /* USER CODE BEGIN StartTask03 */
   /* Infinite loop */
-  
+  for(;;)
+  {
     osDelay(1);
-  
+  }
   /* USER CODE END StartTask03 */
 }
 

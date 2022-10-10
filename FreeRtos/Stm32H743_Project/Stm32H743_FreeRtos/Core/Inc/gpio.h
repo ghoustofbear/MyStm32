@@ -29,7 +29,7 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-void LED(int n);
+
 /* USER CODE END Includes */
 
 /* USER CODE BEGIN Private defines */

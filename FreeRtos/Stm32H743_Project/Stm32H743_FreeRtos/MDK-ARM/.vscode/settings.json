@@ -1,7 +1,5 @@
 {
     "files.associations": {
-        "gpio.h": "c",
-        "queue": "c",
-        "random": "c"
+        "data_protocol.h": "c"
     }
 }

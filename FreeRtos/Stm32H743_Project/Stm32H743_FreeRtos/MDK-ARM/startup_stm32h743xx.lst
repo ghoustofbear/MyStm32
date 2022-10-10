@@ -1275,12 +1275,12 @@ ARM Macro Assembler    Page 20
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
-interwork --depend=freertosdemo\startup_stm32h743xx.d -ofreertosdemo\startup_st
-m32h743xx.o -I..\Core\Inc -I.\RTE\_FreeRtosDemo -IC:\Keil_v5\ARM\PACK\ARM\CMSIS
-\5.4.0\CMSIS\Core\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\3.0.0\Driver
-s\CMSIS\Device\ST\STM32H7xx\Include --predefine="__EVAL SETA 1" --predefine="__
-UVISION_VERSION SETA 527" --predefine="_RTE_ SETA 1" --predefine="STM32H743xx S
-ETA 1" --list=startup_stm32h743xx.lst startup_stm32h743xx.s
+interwork --depend=stm32h743_freertos\startup_stm32h743xx.d -ostm32h743_freerto
+s\startup_stm32h743xx.o -I..\Core\Inc -I.\RTE\_Stm32H743_FreeRtos -IC:\Keil_v5\
+ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32H7x
+x_DFP\3.0.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include --predefine="__UVISION_VE
+RSION SETA 527" --predefine="_RTE_ SETA 1" --predefine="STM32H743xx SETA 1" --l
+ist=startup_stm32h743xx.lst startup_stm32h743xx.s
 
 
 
@@ -2961,4 +2961,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-507 symbols in table
+506 symbols in table

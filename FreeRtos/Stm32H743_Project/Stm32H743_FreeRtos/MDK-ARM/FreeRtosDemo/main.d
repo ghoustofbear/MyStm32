@@ -50,6 +50,5 @@ freertosdemo\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 freertosdemo\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 freertosdemo\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 freertosdemo\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
-freertosdemo\main.o: ../Core/Inc/dma.h
 freertosdemo\main.o: ../Core/Inc/usart.h
 freertosdemo\main.o: ../Core/Inc/gpio.h

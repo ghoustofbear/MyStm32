@@ -18,10 +18,7 @@
   */
 /* USER CODE END Header */
 
-
 /* Includes ------------------------------------------------------------------*/
-#ifndef GPIO_H
-#define GPIO_H
 #include "gpio.h"
 
 /* USER CODE BEGIN 0 */
@@ -83,22 +80,5 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
-void LED(int n)
-{
-  if(n==0)
-  {
-    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);
-    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_SET);
-    HAL_Delay(200);
-  }
-  else
-  {
-    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET);
-    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);
-    HAL_Delay(200);
-  }
- 
-}
-#endif
-/* USER CODE END 2 */
 
+/* USER CODE END 2 */
